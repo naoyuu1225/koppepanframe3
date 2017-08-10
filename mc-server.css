@@ -1,0 +1,111 @@
+
+body{
+     background-color:palegoldenrod;
+    width:500px;
+}
+
+h1{
+    width:1000px;
+    margin-left: 400px;
+    margin-right:auto;
+}
+
+.position{
+    position : absolute;
+    top : 20px;
+    left : 950px;
+}
+
+.header{
+    color : blue;
+}
+
+h3{
+    width:500px;
+    margin-left:    250px;
+    margin-right:   auto;
+}
+
+/*メンバー名の点を四角に、表記を横方向に、名前同士の間隔をあける*/
+/*プラグイン名を横並びに*/
+.inlineBlock li{
+    margin-left : 40px;
+    margin-right :40px;
+    list-style-type: square;
+    float:left;
+}
+
+/*家ボックスと農業ボックスを横方向に並べる*/
+.heiretu{
+    width : 1000px;
+    display:flex;
+}
+
+/*その他ボックスを横方向に*/
+.heiretu2{
+    width : 1000px;
+    display :flex;
+}
+
+/*メンバーと施設紹介の間を空ける*/
+.tate{
+    margin-top : 70px;
+}
+
+/*家ボックスの位置指定    その他ボックスの位置指定*/
+.box{
+    margin-left:    300px;
+    margin-right:   auto;
+}
+
+/*農業ボックスの位置指定   その他ボックス（右）の位置指定*/
+.box2{
+    margin-top : 65px;
+    margin-left : 100px;
+    margin-right : auto;
+}
+
+/*メンバーボックスの位置指定     サーバー情報の中の表の位置指定*/
+.box3{                      
+    width : 500px;
+    margin-left : 300px;
+    margin-right : auto;
+}
+
+/*導入プラグインボックスの位置指定*/
+.box4{
+    width : 1000px;
+    margin-left : 300px;
+    margin-right : auto;
+}
+
+/*表のブロックの幅*/
+.pad{
+    padding-left : auto;
+    padding-right : auto;
+}
+
+.pad1{
+    width : 1000px;
+    padding-left : 50px;
+    padding-right : 50px;
+}
+
+/*インラインフレームの位置と大きさの指定*/
+.frame{
+    width : 850px;
+    height : 500px;
+    margin-top : 30px;
+    margin-left : 150px;
+    margin-right : auto;
+}
+
+/*weコマンドの表の大きさ*/
+.box5{
+    width : 830px;
+}
+
+/*weのh3位置指定*/
+.we{
+    margin-left : 100px;
+}
